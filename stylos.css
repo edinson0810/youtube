@@ -237,10 +237,15 @@ overflow: hidden;
     gap: 10px; 
     transition: 1s;
     border-radius: 10px;
+    
 }
 
 .sidebar-item:hover{
     background-color: #4c4c4c;
 
+}
+
+.more{
+    margin-bottom: 10px;
 }
 
