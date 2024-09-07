@@ -213,3 +213,34 @@ overflow: hidden;
     border-radius: 50%;
 }
 
+/* sidebar start */
+.sidebar{
+    grid-area: sidebar;
+    background-color: #212121;
+    padding-top: 10px;
+}
+
+.sidebar-items{
+    display: flex;
+    flex-direction: column;
+    padding: 0 14px;
+    
+}
+
+.sidebar-item{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 14px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.sidebar-item:hover{
+    background-color: #4c4c4c;
+
+}
+
